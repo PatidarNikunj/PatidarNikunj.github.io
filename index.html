@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nikunj Patel | Senior Frontend & Full Stack Engineer</title>
+  <meta name="description" content="Senior / Lead Frontend & Full Stack Engineer with 12+ years in React, React Native, Next.js and TypeScript.">
+  <meta property="og:title" content="Nikunj Patel | Senior Frontend & Full Stack Engineer">
+  <meta property="og:description" content="React · React Native · Next.js · TypeScript. 12+ years building web and mobile products that scale.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a href="#top" class="logo"><span>&lt;</span>NP<span>/&gt;</span></a>
+      <nav class="links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#repos">Repos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-btn" id="themeBtn" type="button" aria-label="Toggle colour theme">◐</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <p class="pill"><span class="dot"></span>Available now · Open to relocation (EU &amp; UK)</p>
+      <h1>Hi, I'm <span class="grad">Nikunj Patel</span>.</h1>
+      <p class="role">I build <span id="typed" class="typed">scalable web apps</span><span class="caret">|</span></p>
+      <p class="sub mono">React · React Native · Next.js · TypeScript</p>
+      <div class="cta">
+        <a class="btn primary" href="https://mprofile.vercel.app/services">Hire me</a>
+        <a class="btn" href="https://www.linkedin.com/in/patidarnikunj/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="btn" href="https://github.com/PatidarNikunj" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+      <dl class="stats">
+        <div><dt>Years of experience</dt><dd data-count="12" data-suffix="+">12+</dd></div>
+        <div><dt>Users on retail platform</dt><dd>1.5-2M</dd></div>
+        <div><dt>Countries served (IoT)</dt><dd data-count="150" data-suffix="+">150+</dd></div>
+        <div><dt>Concurrent stream users</dt><dd data-count="100" data-suffix="K+">100K+</dd></div>
+      </dl>
+    </section>
+
+    <section id="about" class="wrap section reveal">
+      <h2><span class="idx">01.</span>About</h2>
+      <div class="about">
+        <p class="lead">
+          Senior and Lead Frontend and Full Stack Engineer with 12+ years building web and mobile products
+          that scale. I work mostly in React, React Native, Next.js and TypeScript. My work covers system
+          design, architecture, security, testing and leading teams, and I usually own features from start
+          to finish on platforms that serve millions of users.
+        </p>
+        <ul class="facts">
+          <li><span>Based in</span>Pune, India</li>
+          <li><span>Open to</span>EU &amp; UK roles</li>
+          <li><span>Focus</span>Frontend, mobile, full stack</li>
+          <li><span>Contract rate</span>$35 / hour</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="experience" class="wrap section reveal">
+      <h2><span class="idx">02.</span>Experience</h2>
+      <ol class="timeline">
+        <li>
+          <div class="job-head"><h3>System Analyst / Tech Lead <em>@ Cybage Software</em></h3><time>Feb 2023 – Present</time></div>
+          <ul>
+            <li>Led engineers building a React Native and Next.js eCommerce platform for 1.5-2M users, improving stability by 60%+.</li>
+            <li>Led a team of 6 delivering a fraud-detection app for a global credit bureau, and owned its security (SSL pinning, OAuth2/JWT, device fingerprinting).</li>
+            <li>Built shared design-system components and utilities in a monorepo that cut boilerplate by 75%+.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="job-head"><h3>Senior React Native Engineer <em>@ Pedals Up Innovation</em></h3><time>Dec 2021 – Jan 2023</time></div>
+          <ul>
+            <li>Owned the mobile and web experience for Pentair's IoT ecosystem, with customers in 150+ countries.</li>
+            <li>Connected 30+ BLE devices through native modules, and shipped SDKs and Storybook component libraries.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="job-head"><h3>Senior Software Engineer <em>@ Gigs Live (YC)</em></h3><time>Aug 2020 – Dec 2021</time></div>
+          <ul>
+            <li>Built a live-streaming product from 0 to 1 on mobile, web and TV, for 100K+ concurrent users.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="job-head"><h3>Senior Software Engineer <em>@ NINtec Systems</em></h3><time>Feb 2017 – Aug 2020</time></div>
+          <ul>
+            <li>Delivered React, React Native and Android apps for international clients in automotive, logistics, insurance and eCommerce.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="job-head"><h3>Software Engineer <em>@ Early career</em></h3><time>Apr 2014 – Feb 2017</time></div>
+          <ul>
+            <li>Built native Android apps in Java and Kotlin, and ERP systems from scratch.</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <section id="skills" class="wrap section reveal">
+      <h2><span class="idx">03.</span>Skills</h2>
+      <div class="filters" id="skillFilters"></div>
+      <ul class="chips" id="skillChips"></ul>
+    </section>
+
+    <section id="repos" class="wrap section reveal">
+      <h2><span class="idx">04.</span>Recent repositories</h2>
+      <div class="repos" id="repoList"><p class="muted">Loading repositories…</p></div>
+      <p class="more"><a href="https://github.com/PatidarNikunj?tab=repositories" target="_blank" rel="noreferrer">See all repositories →</a></p>
+    </section>
+
+    <section id="contact" class="wrap section contact reveal">
+      <p class="mono accent">05. What's next?</p>
+      <h2 class="big">Let's build something.</h2>
+      <p class="muted">I'm open to Senior or Lead Frontend, Full Stack and React Native roles, contract work, and fixed-scope projects.</p>
+      <div class="cta center">
+        <a class="btn primary" href="mailto:patelnikunjmca93@gmail.com">Say hello</a>
+        <a class="btn" href="https://mprofile.vercel.app/services">See services</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>© <span id="year"></span> Nikunj Patel · Built with plain HTML, CSS &amp; JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
